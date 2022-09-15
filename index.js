@@ -2,6 +2,7 @@ exports.smt = require("./src/smt");
 exports.eddsa = require("./src/eddsa");
 exports.mimc7 = require("./src/mimc7");
 exports.mimcsponge = require("./src/mimcsponge");
+exports.mimcSpongecontract = require("./src/mimcsponge_gencontract");
 exports.babyJub = require("./src/babyjub");
 exports.pedersenHash = require("./src/pedersenHash");
 exports.SMT = require("./src/smt").SMT;
